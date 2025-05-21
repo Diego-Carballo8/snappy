@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="main-container">
+    <!-- Contenedor de imágenes -->
+    <div class="image-container">
+      <div class="image-stack">
+        <!-- Imágenes con enlaces directos -->
+        <img src="https://i.postimg.cc/CLFsssVG/1000062516.jpg" alt="Imagen 1">
+        <img src="https://i.postimg.cc/ryfhDPB6/depositphotos-557351356-stock-photo-young-group-of-people-laughing.jpg" alt="Imagen 2">
+      </div>
+    </div>
+
+    <!-- Contenedor de login -->
+    <div class="login-container">
+      <h2>Snappy</h2>
+      <p>Ingresa tu cuenta</p>
+
+      <form action="procesar_login.php" method="POST">
+        <input type="email" name="correo" placeholder="Teléfono, usuario o correo electrónico" required>
+        <input type="password" name="contrasena" placeholder="Contraseña" required>
+        <input type="submit" value="Iniciar sesión" class="btn">
+      </form>
+
+      <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+
+      <p>¿No tienes una cuenta? <a href="registro.html" style="color:#0095f6;">Regístrate</a></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Todos los derechos reservados | TuNombre o Empresa</p>
+    </div>
+  </footer>
+
+</body>
+</html>
