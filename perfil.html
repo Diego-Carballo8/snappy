@@ -11,12 +11,14 @@
         <h1>Perfil de Usuario</h1>
         <nav>
             <button id="logoutBtn">Cerrar sesión</button>
+            <button id="logoutB">Regresar</button>
         </nav>
     </header>
 
     <main>
         <section class="profile-card">
             <img src="default-avatar.png" alt="Avatar de usuario" id="avatar" />
+            <input type="file" id="avatarInput" accept="image/*" />
             <h2 id="username">Nombre de Usuario</h2>
             <p><strong>Email:</strong> <span id="email"></span></p>
             <p><strong>Edad:</strong> <span id="age"></span></p>
@@ -24,8 +26,8 @@
             <p id="bio"></p>
         </section>
     </main>
-    <script src="perfil.js"></script>
 
-    
+    <script src="perfil.js"></script>
+    <script src="cambiar-avatar.js"></script>
 </body>
 </html>
