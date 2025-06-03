@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #4a90e2;
+    background: linear-gradient(135deg, #4ec4e7, #92dbf1, #4ec4e7, #4ec4e7);
     color: white;
     padding: 1rem 2rem;
     display: flex;
