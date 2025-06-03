@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: white;
+    background: linear-gradient(135deg, #4ec4e7, #92dbf1, #4ec4e7, #4ec4e7);
     border-bottom: 1px solid #e0e0e0;
     position: sticky;
     top: 0;
@@ -48,7 +48,7 @@ nav a:hover {
     overflow-x: auto;
     gap: 1rem;
     padding: 1rem 2rem;
-    background-color: white;
+    background-color:#9cd1ce;
     border-bottom: 1px solid #e0e0e0;
     scrollbar-width: none;
 }
